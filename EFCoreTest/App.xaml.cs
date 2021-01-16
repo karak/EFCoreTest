@@ -13,7 +13,8 @@ namespace EFCoreTest
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            // DependencyService.Register<MockDataStore>();
+            DependencyService.Register<SqliteDataStore>();
             MainPage = new MainPage();
         }
 
