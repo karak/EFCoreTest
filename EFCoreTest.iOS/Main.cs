@@ -5,6 +5,8 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+// For EFCore
+[assembly: Preserve(typeof(Queryable), AllMembers = true)]
 namespace EFCoreTest.iOS
 {
     public class Application
